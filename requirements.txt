@@ -1,6 +1,6 @@
 --only-binary :all: pywinpty
 jupyterlab
-numpy--1.24.4
+numpy==1.24.4
 scipy
 Pillow
 cython
