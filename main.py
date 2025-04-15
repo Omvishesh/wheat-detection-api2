@@ -68,7 +68,7 @@ async def load_model():
     
     # Get model path and URL from environment or use default
     model_path = os.getenv('MODEL_PATH', 'logs/object20250403T2351/mask_rcnn_object_0010.h5')
-    model_url = os.getenv('MODEL_URL', 'https://storage.cloud.google.com/wheat-seed-model/mask_rcnn_object_0010.h5')
+    model_url = os.getenv('MODEL_URL', 'https://storage.googleapis.com/wheat-seed-model/mask_rcnn_object_0010.h5')
     
     # Download model if it doesn't exist
     if not os.path.exists(model_path):
